@@ -600,52 +600,92 @@ video {
   position: relative;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .top-0 {
   top: 0px;
 }
 
-.right-0 {
-  right: 0px;
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .flex {
   display: flex;
 }
 
-.h-\[\] {
-  height: ;
+.h-5 {
+  height: 1.25rem;
 }
 
 .h-\[50px\] {
   height: 50px;
 }
 
-.h-4 {
-  height: 1rem;
+.h-\[\] {
+  height: ;
 }
 
-.h-5 {
-  height: 1.25rem;
+.h-\[600px\] {
+  height: 600px;
 }
 
-.w-\[\] {
-  width: ;
+.h-full {
+  height: 100%;
 }
 
-.w-\[50\] {
-  width: 50;
+.h-\[800px\] {
+  height: 800px;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .w-\[50px\] {
   width: 50px;
 }
 
-.w-4 {
-  width: 1rem;
+.w-full {
+  width: 100%;
 }
 
-.w-5 {
-  width: 1.25rem;
+.w-\[\] {
+  width: ;
+}
+
+.w-\[288\] {
+  width: 288;
+}
+
+.w-\[288px\] {
+  width: 288px;
+}
+
+.max-w-\[700px\] {
+  max-width: 700px;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[232px\] {
+  max-width: 232px;
 }
 
 .items-center {
@@ -665,28 +705,20 @@ video {
        column-gap: 2.75rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#d0\] {
-  background-color: #d0;
-}
-
-.bg-\[\#d0ccc\] {
-  background-color: #d0ccc;
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .bg-\[\#d0ccc77e\] {
   background-color: #d0ccc77e;
+}
+
+.bg-\[\#ff880043\] {
+  background-color: #ff880043;
 }
 
 .bg-red-500 {
@@ -699,14 +731,14 @@ video {
   background-color: rgb(63 167 47 / var(--tw-bg-opacity, 1));
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.bg-primery {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 138 0 / var(--tw-bg-opacity, 1));
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .px-9 {
@@ -714,17 +746,79 @@ video {
   padding-right: 2.25rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.font-\[\] {
+  font-family: ;
+}
+
+.font-\[Raleway\] {
+  font-family: Raleway;
+}
+
 .text-\[10px\] {
   font-size: 10px;
 }
 
-.text-\[\] {
-  color: ;
+.text-\[80px\] {
+  font-size: 80px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[5\.\] {
+  line-height: 5.;
+}
+
+.leading-\[5\.25\] {
+  line-height: 5.25;
+}
+
+.leading-\[5\.25rem\] {
+  line-height: 5.25rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.text-primery {
+  --tw-text-opacity: 1;
+  color: rgb(255 138 0 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-thirdstage {
+  --tw-text-opacity: 1;
+  color: rgb(49 31 9 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-primery:hover {

@@ -625,6 +625,22 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-\[88px\] {
+  margin-top: 88px;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -653,6 +669,18 @@ video {
   height: 100%;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -671,6 +699,22 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .max-w-\[150px\] {
@@ -717,6 +761,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-x-14 {
   -moz-column-gap: 3.5rem;
        column-gap: 3.5rem;
@@ -747,6 +795,35 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[15px\] {
+  border-radius: 15px;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-s {
+  border-start-start-radius: 0.25rem;
+  border-end-start-radius: 0.25rem;
 }
 
 .bg-\[\#d0ccc77e\] {
@@ -780,6 +857,30 @@ video {
 .bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(63 167 47 / var(--tw-bg-opacity, 1));
+}
+
+.bg-thirdstage {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 31 9 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#FF8A00\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 138 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#e8b275\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 178 117 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#ffe5c8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 229 200 / var(--tw-bg-opacity, 1));
 }
 
 .object-contain {
@@ -822,6 +923,18 @@ video {
 
 .pt-40 {
   padding-top: 10rem;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[88px\] {
+  padding-top: 88px;
+}
+
+.pt-\[88\] {
+  padding-top: 88;
 }
 
 .text-center {
@@ -924,6 +1037,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#B7A28B\] {
+  --tw-text-opacity: 1;
+  color: rgb(183 162 139 / var(--tw-text-opacity, 1));
 }
 
 .drop-shadow-\[0px_13px_13px_rgba\(87\2c 103\2c 118\2c 0\.2\)\] {

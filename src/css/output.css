@@ -632,6 +632,18 @@ video {
   top: 1%;
 }
 
+.bottom-\[-24\%\] {
+  bottom: -24%;
+}
+
+.left-\[-7\%\] {
+  left: -7%;
+}
+
+.right-\[15\%\] {
+  right: 15%;
+}
+
 .my-14 {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
@@ -693,6 +705,22 @@ video {
   margin-bottom: 8rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -735,6 +763,10 @@ video {
 
 .h-\[982px\] {
   height: 982px;
+}
+
+.h-\[600px\] {
+  height: 600px;
 }
 
 .w-14 {
@@ -795,6 +827,10 @@ video {
 
 .max-w-\[982px\] {
   max-width: 982px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
 }
 
 .flex-col {
@@ -1053,6 +1089,10 @@ video {
   font-size: 70px;
 }
 
+.text-\[50px\] {
+  font-size: 50px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1095,6 +1135,10 @@ video {
 
 .leading-\[200\] {
   line-height: 200;
+}
+
+.leading-\[150\%\] {
+  line-height: 150%;
 }
 
 .text-\[\#59442B\] {
@@ -1177,8 +1221,24 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:text-\[70px\] {
+    font-size: 70px;
+  }
+
+  .md\:leading-\[200\%\] {
+    line-height: 200%;
   }
 }
 
@@ -1219,6 +1279,10 @@ video {
     justify-content: space-between;
   }
 
+  .lg\:text-start {
+    text-align: start;
+  }
+
   .lg\:text-\[70px\] {
     font-size: 70px;
   }
@@ -1241,5 +1305,43 @@ video {
   .xl\:gap-x-11 {
     -moz-column-gap: 2.75rem;
          column-gap: 2.75rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:bottom-\[-53px\] {
+    bottom: -53px;
+  }
+
+  .\32xl\:left-\[-57px\] {
+    left: -57px;
+  }
+
+  .\32xl\:right-\[32\%\] {
+    right: 32%;
+  }
+
+  .\32xl\:top-\[1\%\] {
+    top: 1%;
+  }
+
+  .\32xl\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
+  .\32xl\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .\32xl\:h-\[982px\] {
+    height: 982px;
+  }
+
+  .\32xl\:max-w-\[982px\] {
+    max-width: 982px;
+  }
+
+  .\32xl\:pr-\[25\%\] {
+    padding-right: 25%;
   }
 }
